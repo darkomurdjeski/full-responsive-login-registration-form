@@ -1,0 +1,103 @@
+/*Custom css*/
+
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.login_form {
+	margin-top: 130px;
+}
+
+/*Title*/
+.title {
+	color: white;
+    text-shadow: 2px 2px #383434f0;
+}
+.login_form h2 {
+	font-size: 48px !important;
+}
+
+/*Inputs*/
+.input-field input, .input-field label{
+	color: white !important;
+}
+.input-field input {
+	border-color: white !important;
+}
+.input-field input:focus {
+	border-color: white !important;
+	box-shadow: none !important;
+}
+.register_div_input input{
+	border:none !important;
+	margin-bottom: 0px !important;
+	height: 40px !important;
+}
+
+/*Buttons*/
+#btn_login {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+#btn_login, #btn_register {
+    background-color: rgba(255, 255, 255, 0.52);
+    text-shadow: 1px 1px #383434f0;
+}
+#btn_login:hover, #btn_register:hover {
+	background-color: rgba(70, 68, 68, 0.65);
+}
+.modal-footer button {
+	color: white;
+}
+
+/*Icons*/
+.material-icons {
+	color: white;
+	top: 0.25rem !important;
+}
+.active {
+	color: #ffdb4d !important;
+}
+.register_icon {
+	color: #ffdb4d !important;
+	font-size: 40px !important;
+}
+
+
+
+/*Modal*/
+#modal1 {
+	background-color: rgba(0,0,0,0.5) !important;
+	width: 35%;
+    box-shadow: 1px 2px 15px 8px #f0e6e629;
+    overflow: hidden;
+}
+.modal-footer {
+	background-color: transparent !important;
+}
+
+/*Div*/
+.modal-content .row {
+	margin-bottom: 0px;
+}
+.register_div_input {
+    border: 1px solid #ffdb4d;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 0px !important;
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 35px !important;
+  }
+  .login_form h2 {
+	font-size: 35px !important;
+}
+}
